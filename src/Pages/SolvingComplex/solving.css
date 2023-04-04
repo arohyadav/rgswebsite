@@ -1,0 +1,53 @@
+
+
+.solving-video-wrapp{
+    height: 100%;
+    width: 100%;
+    /* margin: 0px; */
+  
+    
+   
+    
+}
+
+
+.solving-h2-text{
+    margin: 0px;
+     padding: 10px; 
+    top:48rem;
+    position: absolute;
+    color:aliceblue;
+   padding-left: 16rem;
+    text-align: center;
+    font-size: 63px;
+    /* right: 30px; */
+}
+
+.solving-challenge-p{
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    top: 54rem;
+    align-items: center;
+    padding-left: 20rem;
+}
+
+.solving-sec-p{
+    font-size: 20px;
+    color:aliceblue ;
+    position: absolute;
+    top: 55.5rem;
+    align-items: center;
+    padding-left: 28rem;
+    
+}
+
+.solving-last-p-style{
+    color:white;
+   justify-content: center;
+   text-align: center;
+ position: absolute;
+ padding-left: 10rem;
+ top:78rem;
+ font-size: 20px;
+}

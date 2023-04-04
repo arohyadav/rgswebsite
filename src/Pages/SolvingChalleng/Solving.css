@@ -1,0 +1,84 @@
+.solving_data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: whitesmoke;
+}
+
+.solving_container{
+    position: relative;
+    display: flex;
+    padding: 80px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+
+
+
+}
+
+
+.solving-card{
+    /* position: relative; */
+    width: 360px;
+    height: 190px;
+    background-color: rgb(22, 21, 21);
+    transition: 0.5s;
+
+
+}
+
+
+.solving-card:hover{
+    height: 300px;
+}
+
+
+
+
+/*
+.solving_card  .solv_lines{
+
+    position: absolute;
+    inset: 0;
+    background: rgb(27, 25, 25);
+    overflow: hidden; 
+}
+
+.solving_card  .solv_lines::before{
+    content:'';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width:600px;
+    height: 120px;
+    background: linear-gradient(transparent,#45f3ff,#45f3ff,#45f3ff,transparent);
+    animation: animate 4s linear infinite;
+    animation-play-state: paused;
+}
+
+.solving_card:hover  .solv_lines::before{
+    animation-play-state: running;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+
+    }
+
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+
+.solving_card  .solv_lines::after{
+    content: '';
+    position: absolute;
+    inset: 3px;
+    background: rgb(22, 21, 21);
+}
+
+*/
